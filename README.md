@@ -9,6 +9,7 @@ java -jar coin_model_generator.jar N
 Example:
 
 PS C:\Users\DSS> java -jar coin_model_generator.jar 6
+<pre>
                  /----- BOB-0 (+1;-1)
          /----- ALICE-2
          |       \----- BOB-1
@@ -42,3 +43,4 @@ ALICE-6
                          \----- ALICE-2
                                  \----- BOB-1
                                          \----- ALICE-0 (-1;+1)
+</pre>
